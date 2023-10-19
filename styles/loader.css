@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.pace-running #global-container {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#global-container {
+  transition: opacity 2s;
+  opacity: 1;
+}
+
+.pace {
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+.pace .pace-progress {
+  transform: none !important;
+  text-align: center;
+}
+
+.pace .pace-progress:after {
+  content: "極上の宿泊体験をあなたに";
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Shippori Mincho", serif;
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pace.pace-inactive {
+  display: none;
+}/*# sourceMappingURL=loader.css.map */

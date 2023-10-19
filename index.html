@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css-reset.css">
+    <link rel="stylesheet" href="styles/loader.css">
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-logo">
+            <h1>
+                <a href="#">
+                    Hotel Portfolio
+                </a>
+            </h1>
+        </div>
+        <div class="header-list">
+            <p>RESEVESION</p>
+            <ul class="hide-lists">
+                <li class="hide-list">宿泊</li>
+                <li class="hide-list">バー</li>
+                <li class="hide-list">プール</li>
+            </ul>
+        </div>
+        <div class="header-navi">
+            <ul>
+                <li><a href="message">Message</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="person">Person</a></li>
+                <li><a href="reservation">Resevation</a></li>
+            </ul>
+        </div>
+        <div class="header-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="hidden-navi">
+            <ul>
+                <li>
+                    <h2>Message</h2>
+                    <p>お客様に伝えたいこと</p>
+                </li>
+                <li>
+                    <h2>About</h2>
+                    <p>当ホテルについて</p>
+                </li>
+                <li>
+                    <h2>Person</h2>
+                    <p>従業員について</p>
+                </li>
+                <li>
+                    <h2>Reservation</h2>
+                    <p>ご予約はこちらから</p>
+                </li>
+            </ul>
+            <span class="close-btn">CLOSE</span>
+        </nav>
+    </header>
+
+    <div id="global-container">
+
+    <section id="mainvisual">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/main1.jpg" alt=""> </div>
+              <div class="swiper-slide"><img src="img/main2.jpg" alt=""> </div>
+              <div class="swiper-slide"><img src="img/main3.jpg" alt=""> </div>
+              <div class="swiper-slide"><img src="img/main4.jpg" alt=""> </div>
+              <div class="swiper-slide"><img src="img/main5.jpg" alt=""> </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+          
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+          
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+            <h2 class="title">極上の宿泊体験をあなたに</h2>
+        <span class="scroll">
+            Scroll
+            <span class="scrollLine"></span>
+        </span>
+        <div class="mainvisual-bottom">
+            <div class="left">
+                <span>PHOTOS</span>
+            </div>
+            <div class="right">
+                <p>link:</p>
+                <a href="https://pixabay.com/ja//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7351261">背景画像</a>
+                <p>link:</p>
+                <a href="お金を浴びる玉の輿女子のフリー素材 https://www.pakutaso.com/20220709186post-41263.html">人物の素材</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="message">
+        <div class="text observer">
+            <div class="section-title">
+                <h2>Message</h2>
+                <span class="sub-title">お客様へ</span>
+            </div>
+            <div class="message-content">
+                <p>This Web site introduce you an imaginary hotel.</p>
+                <p>This Web site introduce you an imaginary hotel.</p>
+                <p>This Web site introduce you an imaginary hotel.</p>
+                <p>This Web site introduce you an imaginary hotel.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-title">
+            <h2>About</h2>
+            <span>当ホテルについて</span>
+        </div>
+        <div class="slides observer">
+            <div class="slide">
+                <div class="slideItem">
+                    <img src="img/bar.jpg" alt="">
+                    <span class="item-copy">ゴージャスなレストラン</span>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slideItem">
+                    <img src="img/sauna.jpg" alt="">
+                    <span class="item-copy">高品質のサウナ</span>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slideItem">
+                    <img src="img/pool.jpg" alt="">
+                    <span class="item-copy">高層階のナイトプール</span>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section id="person">
+        <div class="section-title">
+            <h2>Person</h2>
+            <span>従業員をご紹介</span>
+        </div>
+        <div class="swiper2 observer">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="img/person1.jpg" alt="">
+                        <span class="item-copy">お客様ファーストの接客</span>
+                        <div class="slide-text">
+                            <span class="class">フロントスタッフ</span>
+                            <span>日野　太郎</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="img/person2.jpg" alt="">
+                        <span class="item-copy">世界一のホテルを目指して</span>
+                        <div class="slide-text">
+                            <span  class="class">マネージャー</span>
+                            <span>立川　花子</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="img/person3.jpg" alt="">
+                        <span class="item-copy">目の前の仕事に全力</span>
+                        <div class="slide-text">
+                            <span  class="class">シェフ</span>
+                            <span>国分寺　二郎</span>
+                        </div>        
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="img/person4.jpg" alt="">
+                        <span class="item-copy">床掃除のプロフェッショナル</span>
+                        <div class="slide-text">
+                            <span class="class">取締役</span>
+                            <span>八王子　北乃</span>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <ul>
+            <li><a href="#message">Message</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mainvisual">Mainvisual</a></li>
+            <li><a href="#person">Person</a></li>
+            <li><a href="#">作成者へ連絡</a></li>
+        </ul>
+        <p>&copy;Butsumon</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    </div>
+</body>
+</html>
